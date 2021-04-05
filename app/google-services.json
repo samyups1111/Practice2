@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605221171766",
+    "project_id": "mypokemondatabaseapp",
+    "storage_bucket": "mypokemondatabaseapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605221171766:android:08687681296f1c491bde97",
+        "android_client_info": {
+          "package_name": "samyups.example.practice2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605221171766-19ir3novmt8vatgcg3utjn186ieb79sa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRKXYkn_HUGdMNc8gERDCDyWNy0y06tY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605221171766-19ir3novmt8vatgcg3utjn186ieb79sa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

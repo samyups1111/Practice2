@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practice2</string>
+    <string name="add_pokemon">Add Pokemon</string>
+    <string name="cancel">cancel</string>
+    <string name="submit">submit</string>
+    <string name="add_pokemon_type">add Pokemon type</string>
+    <string name="firebase">Firebase</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="add_poke_id">Add Poke ID</string>
+</resources>

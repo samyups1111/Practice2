@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/recycler_item_id_edittext"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:inputType="textAutoCorrect"/>
+
+    <EditText
+            android:id="@+id/recycler_item_name_edittext"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="textAutoCorrect"/>
+
+    <EditText
+            android:id="@+id/recycler_item_type_edittext"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="textAutoCorrect"/>
+
+</LinearLayout>

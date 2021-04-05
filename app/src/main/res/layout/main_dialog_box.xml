@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/add_poke_id_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_poke_id"
+        android:layout_margin="15dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+            android:id="@+id/add_poke_name_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_pokemon"
+            android:layout_margin="15dp"
+            android:inputType="textAutoCorrect"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/add_poke_id_edittext"/>
+
+    <EditText
+            android:id="@+id/add_poke_type_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_pokemon_type"
+            android:layout_margin="15dp"
+            android:inputType="textAutoCorrect"
+            app:layout_constraintTop_toBottomOf="@+id/add_poke_name_edittext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+    <Button
+            android:id="@+id/main_dialog_cancel_button"
+            android:text="@string/cancel"
+            app:layout_constraintTop_toBottomOf="@id/add_poke_type_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/main_dialog_submit_button"/>
+    <Button
+            android:id="@+id/main_dialog_submit_button"
+            android:text="@string/submit"
+            app:layout_constraintTop_toBottomOf="@id/add_poke_type_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            app:layout_constraintLeft_toRightOf="@+id/main_dialog_cancel_button"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="24dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
